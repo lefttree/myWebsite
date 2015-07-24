@@ -37,6 +37,16 @@
 <!-- NAVBAR
 ================================================== -->
   <body background="img/bg_main.gif">
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=1526986324225635";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -170,7 +180,10 @@
       <div class="row" id="about">
         <div class="col-md-7" >
           <h2 class="featurette-heading">Xiang Li <span class="text-muted">李想</span></h2>
-          <a class="text-muted" href="/file/Resume_xiangli.pdf">My Resume</a>
+          <h3><a class="text-muted" href="/file/Resume_xiangli.pdf">My Resume</a>
+          
+          <div class="fb-like" data-href="http://xiangli.me" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+          </h3>
           <p class="lead">I am a engineer student at UCLA(Go Bruins!), Interested in embedded software development, web design, mobile app and other programming stuff.</p>
 	  <p class="lead">I am currently working at <a href="http://www.silvustechnologies.com">Silvus Technologies</a>.</p>
         </div>
