@@ -1,0 +1,20 @@
+{
+    "total": 20,
+    "result": [
+        {
+            "image": "http://theamericangenius.com/wp-content/uploads/2012/01/geek.jpg",
+            "width": 620,
+            "height": 413
+        },
+        {
+            "image": "http://shirtoid.com/wp-content/uploads/2010/01/geek-wars.jpg",
+            "width": 500,
+            "height": 500
+        },
+        {
+            "image": "http://cdn.makeuseof.com/wp-content/uploads/2012/04/Geek-T-Shirt.png?56dd13",
+            "width": 300,
+            "height": 300
+        }
+    ]
+}
